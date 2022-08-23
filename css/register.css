@@ -1,0 +1,82 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  margin-left: 450px;
+  margin-top: 30px;
+  width: 45%;
+  background-color: white;
+}
+
+h1,p{
+    text-align: center  ;
+}
+
+img{
+    margin-left: 36%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 7px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 10px solid #f1f1f1;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #0452aa;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  width: 100%;
+  margin-left: 1%;
+}
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: dodgerblue;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(55, 194, 236), rgb(103, 204, 255));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(140, 222, 245), rgb(37, 172, 240))
+  }
+
+

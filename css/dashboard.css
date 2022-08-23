@@ -1,0 +1,17 @@
+.sidebar{
+    margin-top: 68px;
+    height: 100vh !important;
+
+}
+.logo-user{
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.nav-link:hover {
+    background-color: black;
+
+}
+
